@@ -1,0 +1,14 @@
+{
+  "name": "iam-whatsapp-bot-maker-pro",
+  "version": "1.0.0",
+  "description": "Dashboard starter for managing multiple WhatsApp bot sessions",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20.0.0"},
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}
